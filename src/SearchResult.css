@@ -1,0 +1,76 @@
+.searchresult {
+    display: flex;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+  }
+
+.searchresult:hover {
+    opacity: 0.8;
+}
+
+.searchresult > img {
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.searchresult__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.searchresult__heart {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+.searchresult__infoTop {
+    width: 40vw;
+    padding-left: 10px;
+}
+
+.searchresult__infoTop > h3 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.searchresult__infoTop > p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: gray;
+  }
+  
+.searchresult__infoBottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.searchresult__star {
+    color: red;
+}
+
+
+.searchresult__stars {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.searchresults__price > p {
+    text-align: right;
+  }
+
+.searchresults__price {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
